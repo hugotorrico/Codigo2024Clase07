@@ -11,5 +11,9 @@ void MostrarMensaje2()
     Console.WriteLine("Bienvenido a TECSUP");
 }
 
+void MostrarMensaje3()
+{
+    Console.WriteLine("Bienvenido a TECSUP");
+}
 
 Console.WriteLine("Hello, World!");
