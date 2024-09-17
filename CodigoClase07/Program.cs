@@ -47,4 +47,23 @@ Producto producto2 = new Producto
 
 
 
-Console.WriteLine("Hello, World!");
+//Punto punto1 = new Punto { X=0,Y=0};
+Punto punto2 = new Punto { X = 6, Y = 0 };
+Punto punto3= new Punto {  X=6,Y=10};
+Punto punto4 = new Punto { X = 0, Y = 10 };
+
+
+Rectangulo rectangulo = new Rectangulo();
+rectangulo.Punto1 = new Punto { X = 0, Y = 0 };
+rectangulo.Punto2 = punto2;
+rectangulo.Punto3 = punto3;
+rectangulo.Punto4 = punto4;
+
+Console.WriteLine("El área del rectangulo es:");
+Console.WriteLine(rectangulo.CalcularArea());
+
+Console.WriteLine("El perímetro del rectangulo es:");
+Console.WriteLine(rectangulo.CalcularPerimetro());
+
+
+Console.Read();
