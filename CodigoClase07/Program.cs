@@ -1,19 +1,37 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿
+using CodigoClase07;
 
 
-void MostrarMensaje()
-{
-    Console.WriteLine("Bienvenido a TECSUP");
-}
+//Constructor por defecto
+Persona persona = new Persona();
 
-void MostrarMensaje2()
-{
-    Console.WriteLine("Bienvenido a TECSUP");
-}
+//Asi sería en JAVA
+//persona.setNombres("Ronald");
+//persona.getNombres();
 
-void MostrarMensaje3()
-{
-    Console.WriteLine("Bienvenido a TECSUP");
-}
+//Forma Antigua
+persona.setNombres("Ronald");
+Console.WriteLine(persona.getNombres());
+
+//Forma Nueva
+persona.Nombres2 = "Ronald";
+Console.WriteLine(persona.Nombres2);
+
+
+
+
+
+
+
+//Constructor con  2 parámetros
+Persona persona1 = new Persona("Hugo", "Torrico");
+
+//Constructor con  3 parámetros
+Persona persona2 = new Persona("Hugo", "Torrico",36);
+
+
+
+
+
 
 Console.WriteLine("Hello, World!");
