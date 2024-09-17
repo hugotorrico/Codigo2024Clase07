@@ -17,12 +17,6 @@ Console.WriteLine(persona.getNombres());
 persona.Nombres2 = "Ronald";
 Console.WriteLine(persona.Nombres2);
 
-
-
-
-
-
-
 //Constructor con  2 parámetros
 Persona persona1 = new Persona("Hugo", "Torrico");
 
@@ -30,7 +24,26 @@ Persona persona1 = new Persona("Hugo", "Torrico");
 Persona persona2 = new Persona("Hugo", "Torrico",36);
 
 
+Producto producto = new Producto();
+producto.Descripcion = "Nuevo";
+producto.Nombre = "Laptop";
+producto.Cantidad = 10;
+producto.Precio = 5000;
 
+
+Producto producto1 = new Producto
+{
+    Nombre = "TV",
+    Cantidad = 10,
+    Descripcion = "Descripcion",
+    Precio = 2500
+};
+
+Producto producto2 = new Producto
+{
+    Nombre = "Mouse",
+    Precio = 150
+};
 
 
 
